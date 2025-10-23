@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aliya’s Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <button class="btn" id="theme-toggle">Тёмная тема</button>
+
+      <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="menu" aria-label="Открыть меню">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul id="menu" class="nav-menu">
+        <li><a href="#intro">Contact</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="greeting-section">
+      <p id="greeting" class="greeting-text" aria-live="polite"></p>
+      <button id="askName" class="btn">Introduce yourself</button>
+    </section>
+
+    <section id="intro">
+      <div id="intro-text">
+        <h3>Coding | Image making</h3>
+        <h1>Programmer & <br />Designer</h1>
+        <p>
+          Hi, I'm Aliya! I'm a college student and an aspiring programmer. I
+          love creating functional web applications, experimenting with design,
+          and constantly learning new technologies. Welcome to my portfolio!
+        </p>
+        <a href="contact.html" target="_blank" class="btn">Contact</a>
+      </div>
+
+      <div id="intro-image">
+        <img
+          src="./img/photo_5438172073211072400_y.jpg" alt="Aliya portrait"/>
+      </div>
+    </section>
+    <section id="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="https://bitronik.ru/wp-content/uploads/2019/10/6ee7b22b-4c67-40e8-823a-94c748501e8f.jpg" alt="About me photo">
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I'm studying programming at college and have experience with Java,
+            HTML, CSS, and JavaScript. I’m also into design and UI/UX, using
+            Figma to visualize ideas. I aim to combine creativity with technical
+            skill to build functional and beautiful projects.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill-card">
+            <h3>Programming</h3>
+            <p>Java</p>
+            <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+            <p>HTML, CSS</p>
+          <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+            <p>JavaScript</p>
+          <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
+        </div>
+
+        <div class="skill-card">
+            <h3>Design & Tools</h3>
+            <p>Figma</p>
+         <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+            <p>Basic UI/UX</p>
+         <div class="skill-bar"><div class="skill-level" style="width: 60%;"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <p>Attention to Detail</p>
+         <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+          <p>Teamwork</p>
+         <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
+          <p>Fast Learner</p>
+         <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+        </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h1>Latest work</h1>
+        <div class="gallery">
+            <figure>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitfYOEwkREMmJvSXXxrZlgpoh5CPIwEiuemGMLS81p1Uc-O3OOccVyEL5xqSwZl7ebto&usqp=CAU" alt="1">
+                 <figcaption>Project name</figcaption>
+            </figure>
+            <figure>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqQdeFf5fs5k0pUXY65lx6_Ez-DczRjI3YBnmCSFFcMbpIweVyZziszLah1oGdtrnJiMI&usqp=CAU" alt="2">
+                 <figcaption>Project name</figcaption>
+            </figure>
+            <figure>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvf2hu7Hu4inT79UEhHqjFQSeIeiSbycBtx8ZTkZkOlJ7U64c7fB3Npjg8Too4sqkHmYQ&usqp=CAU" alt="3">
+                 <figcaption>Project name</figcaption>
+            </figure>
+            <figure>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0SiAgXz5Lmngn4tRz8hJhiJ9bDnUjYU2wSsQ1CTtxA_WEWyLkmq0g8YiuedjVsh2n6lU&usqp=CAU" alt="4">
+                 <figcaption>Project name</figcaption>
+            </figure>
+            <figure>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYlN2LMs4hbySortGTcm1FdOMVVSiTagrnmZuWrMFcD57Nv9uPI7e8ScGYIcExLymfoU0&usqp=CAU" alt="5">
+                 <figcaption>Project name</figcaption>
+            </figure>
+            <figure>
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS18m3bA5Q4e--7moFSdr7sUsEOIZj-SGUrvLXu8ROabh9jzBH_gDkUXP_vnvVJBbZ8uJo&usqp=CAU" alt="6">
+                 <figcaption>Project name</figcaption>
+            </figure>
+        </div>
+    </section>
+    <button id='scrollTopBtn' class='scroll-top' title='Наверх' aria-label='Наверх'>↑</button>
+
+  </main>
+  <footer>
+    <div class="social-icons">
+      <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram" class="icon-circle">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/yourphonenumber" target="_blank" aria-label="WhatsApp" class="icon-circle">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://t.me/yourusername" target="_blank" aria-label="Telegram" class="icon-circle">
+        <i class="fab fa-telegram-plane"></i>
+      </a>
+    </div>
+    <p>&copy; 2025 Aliya’s Portfolio.</p>
+  </footer>
+<script src="script.js"></script>
+    
+</body>
+</html>
